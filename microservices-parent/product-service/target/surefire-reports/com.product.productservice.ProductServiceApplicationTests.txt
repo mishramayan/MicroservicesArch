@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.product.productservice.ProductServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.231 s <<< FAILURE! - in com.product.productservice.ProductServiceApplicationTests
+shouldCreateProduct  Time elapsed: 0.573 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.testcontainers.shaded.com.fasterxml.jackson.databind.ObjectMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.context.annotation.Lazy(true)}
+	at com.product.productservice.ProductServiceApplicationTests.shouldCreateProduct(ProductServiceApplicationTests.java:52)
+
